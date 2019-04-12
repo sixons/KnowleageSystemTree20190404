@@ -1,0 +1,3 @@
+
+技巧：去掉配置文件中的注解
+egrep -v '^#|^$|^[ ]*#'    /path/to/*.conf >> vsftpd.conf
